@@ -1,5 +1,5 @@
 # Road-Accident-Analysis# Covid-Guard
-An AI model to detect if people are following social distancing & wearing masks for safety.
+A statistical data analysis project on Road Accidents of India over a period of 5-7 years using various [Python Libraries](#lib).
 <img src="Images/Logo.ico" alt="Covid Guard logo" title="Covid Guard" align="right" height="60" />
 [](https://img.shields.io/github/forks/snjydas/Covid-Guard?style=social) ![](https://img.shields.io/github/stars/snjydas/Covid-Guard?style=social) ![](https://img.shields.io/github/watchers/snjydas/Covid-Guard?style=social) <br>
 
@@ -60,6 +60,44 @@ An AI model to detect if people are following social distancing & wearing masks 
 #### The proposed system can be used in real-time applications which require face-mask & social distancing detection for safety purposes.
 #### The system can be integrated with embedded systems for application in airports, railway stations, offices, schools, and public places to ensure that public safety guidelines are followed.
 
+## Process :
+I am analysing various datasets regarding Road Accidents of India gathered from [Open Government Data Platform](https://data.gov.in/dataset-group-name/road-accidents). 
+
+## Python Libraries Used : <a id = 'lib'></a>
+- Pandas
+- Numpy
+- Seaborn
+- Matplotlib
+
+## Analysis :
+
+- Jupyter Notebook
+1) Analysing accidents **PER LAKH** population of the state.
+2) Analysis of accidents according to the **GENDER of OFFENDER and the VICTIM.**
+3) Understanding the occurence of accidents because of improper, ignorant use of **VEHICLE SAFETY ACCESSORIES** like helmets, seat belts.
+4) Analysing road accidents based upon the **NUMBER OF LANES** of a road.
+5) Understanding the **CAUSE AND REASONS** behind the accidents, injuries and deaths of people.
+6) Analysis of accidents according to the **TYPE OF VEHICLE.**
+
+- Tableau
+1) Analysis of accidents based upon the **TIME OF OCCURENCE.**
+2) Analysis of accidents as per the **LOCATION of accident.**
+ 
+## Sample Plots :
+- Overall accidents till 2016.
+![title](https://raw.githubusercontent.com/katreparitosh/Data-Analysis-Of-Road-Accidents-In-India/master/Images/DF%20Accidents/3.png)
+
+- Accidents according to the TIME OF OCCURENCE.
+![time](https://raw.githubusercontent.com/katreparitosh/Data-Analysis-Of-Road-Accidents-In-India/master/Tableau/day1.png)
+
+- Count of accidents plotted over a MAP using Tableau.
+![tab](https://raw.githubusercontent.com/katreparitosh/Data-Analysis-Of-Road-Accidents-In-India/master/Tableau/Location/Overall.png)
+
+- Total number of Accidents, Injuries, Deaths over 1 Lakh population of respective states.
+![acc](https://raw.githubusercontent.com/katreparitosh/Data-Analysis-Of-Road-Accidents-In-India/master/Images/DF4%20Lanes/8.png)
+
+
+
 ## Setup
 
 - Clone the repo and cd into the directory
@@ -70,10 +108,10 @@ $ git clone "https://github.com/snjydas/Covid-Guard"
 $ cd Covid Guard
 ```
 
-### Download Model Weights
+### Download Dataset
 <hr/>
 
-Please download the yolov3 model weights by from [pjredddie.com](https://pjreddie.com/media/files/yolov3.weights) & save the yolov3.weights inside the ./Model Directory.
+Please download various datasets regarding Road Accidents of India gathered from [Open Government Data Platform](https://data.gov.in/dataset-group-name/road-accidents). & save the yolov3.weights inside the ./Model Directory.
 
 ## Installation
 
