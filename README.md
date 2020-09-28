@@ -55,10 +55,16 @@ A statistical data analysis project on Road Accidents of India over a period of 
 
 ## Overview
 
-- In the present scenario due to Covid-19, there is no efficient face mask detection applications which are now in high demand for transportation means, densely populated areas, residential districts, large-scale manufacturers and other enterprises to ensure safety. 
-- Amidst the COVID-19 situation,  maintaining social distancing and wearing  masks is ignored. And, no  data is recorded to ﬁnd out which regions  are violating the same. If there is some  way to get this data, necessary  actions can be taken. Well, rest easy as our  solution does this for you!
+- As per the WHO Global Report on Road Safety, India accounts for almost 11% of the accident related deaths Worldwide. 1214 road crashes occur every day in
+India where, two wheelers account for 25% of total road crash deaths and about 377 people die every day. Multiple factors are behind these large number of
+accidents. So, in order to reduce the accidentsin India we have proposed a model in this report where we have collected all the previous occurred accidents data
+from Govt. portal and analyzed it with the help of machine learning and provided an effective solution to tackle this problem.Our analysis shows that the distribution of road accidental deaths and injuries in India varies according to age, gender, month, state and time. Age group 25-55 years is the most vulnerable population group among all groups.
+Males face higher level of fatalities than their female counterparts. Moreover,road accidents are relatively higher in extreme weather and during working
+hours. Fatality risk in 17 out of 36 states and union territories is higher than the all India average.
+
 #### The proposed system can be used in real-time applications which require face-mask & social distancing detection for safety purposes.
 #### The system can be integrated with embedded systems for application in airports, railway stations, offices, schools, and public places to ensure that public safety guidelines are followed.
+
 
 ## Process :
 I am analysing various datasets regarding Road Accidents of India gathered from [Open Government Data Platform](https://data.gov.in/dataset-group-name/road-accidents). 
